@@ -10,16 +10,20 @@
 	<div class="container" ng-controller="AppCtrl">
 		<h1>AngulAir</h1>
 
-		<ul ng-repeat="place in vacations">
+		<!-- <ul ng-repeat="place in vacations">
 			<li>{{place.city}}</li>
 			<li>{{place.country}}</li>
 			<li>{{place.location}}</li>
 			<li>{{place.languages}}</li>
-		</ul>
+		</ul> -->
 
 		<ul>
-			<li ng-repeat="place in vacations">{{place.city}} - {{place.country}}</li>
+			<li ng-repeat="place in vacations">
+				<a href="" ng-click="setDestination(place.city)">{{place.city}} - {{place.country}}</a>
+			</li>
 		</ul>
+
+		<p>Current destination: {{currentCity.city}}</p>
 
 	</div>
 

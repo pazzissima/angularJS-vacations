@@ -31,4 +31,10 @@ function AppCtrl ($scope) {
       ]
     }
   };
+
+  $scope.currentCity = null;
+
+  $scope.setDestination = function(city) {
+    $scope.currentCity = $scope.vacations[city];
+  }
 }
