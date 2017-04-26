@@ -31,7 +31,7 @@ function AppCtrl ($scope) {
       ]
     }
   };
-
+  $scope.sidebarURL = 'partials/destination.html'
   $scope.currentCity = null;
 
   $scope.setDestination = function(city) {
