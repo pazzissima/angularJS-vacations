@@ -21,6 +21,15 @@ function AppCtrl ($scope) {
         "Spanish"
       ]
     },
+    "Berlin": {
+      "city": "Berlin",
+      "location": "Central Europe",
+      "currency": "Euro",
+      "country": "Germany",
+      "languages": [
+        "German"
+      ]
+    },
     "Mirihi Island": {
       "city": "Mirihi Island",
       "location": "South Asia",
