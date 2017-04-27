@@ -26,6 +26,7 @@ function AppCtrl ($scope) {
       "location": "Latin America",
       "currency": "Peso",
       "country": "Argentina",
+      "image": "/img/buenosaires.jpg",
       "languages": [
         "Spanish"
       ]
@@ -35,6 +36,7 @@ function AppCtrl ($scope) {
       "location": "South Asia",
       "currency": "Maldivian rufiyaa",
       "country": "Maldives",
+      "image": "/img/lankanfushi.jpg",
       "languages": [
         "Spanish"
       ]
@@ -44,6 +46,7 @@ function AppCtrl ($scope) {
       "location": "Central Europe",
       "currency": "Euro",
       "country": "Germany",
+      "image": "/img/berlin.jpg",
       "languages": [
         "German"
       ]
@@ -53,15 +56,17 @@ function AppCtrl ($scope) {
       "location": "South Asia",
       "currency": "Maldivian rufiyaa",
       "country": "Maldives",
+      "image": "/img/mihiri.jpg",
       "languages": [
         "Dhivehi"
       ]
     },
-    "Providenciales Island": {
-      "city": "Providenciales Island",
-      "location": "North Atlantic Ocean, northwest of Puerto Rico",
+    "Providenciales": {
+      "city": "Providenciales",
+      "location": "North Atlantic Ocean",
       "currency": "US dollar",
       "country": "Turks and Caicos Islands",
+      "image": "/img/providenciales.jpg",
       "languages": [
         "English"
       ]

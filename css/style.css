@@ -5,10 +5,16 @@
 .convincingCTA {
   position: relative;
   top: 10px;
-  left: 25%;
-  font-size: 2em;
-  width: 84%;
+  /*left: 25%;*/
+  font-size: 1.5em;
+  /*width: 84%;*/
 }
 .beautifulImage {
   margin-top: 4%;
+  max-height:250px;
 }
+/*@media (max-width: 1200px) {
+  .convincingCTA{
+    display: none;
+  }
+}*/
