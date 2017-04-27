@@ -16,15 +16,15 @@
 
 		<ul class="nav nav-pills">
 			<li ng-class="destinationsActive">
-				<a href="#" ng-click="setActive('destinations')">Destinations</a>
+				<a href="#">Destinations</a>
 			</li>
 
 			<li ng-class="locationActive">
-				<a href="#/location" ng-click="setActive('location')">Location</a>
+				<a href="#/location">Location</a>
 			</li>
 
 			<li ng-class="planActive">
-				<a href="#/plan" ng-click="setActive('plan')">Plan</a>
+				<a href="#/plan">Plan</a>
 			</li>
 		<ul>
 
@@ -43,7 +43,7 @@
 		</div>
 
 		<div class="span5" ng-include src="sidebarURL"></div> -->
-		<p ng-show="currentCity">Current destination: {{currentCity.city}}</p>
+		<p ng-show="currentCity">Why don't I visit {{currentCity.city}}?</p>
 	</div>
 
 		
