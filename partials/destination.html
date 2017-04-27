@@ -1,11 +1,10 @@
-<div ng-show="currentCity">
-  <h3>{{currentCity.country}}</h3>
-
-  <h4>Languages</h4>
-
-  <ul>
-    <li ng-repeat="language in currentCity.languages">
-      {{language}}
-    </li>
-  </ul>
+<div class="pull-left span6">
+    <h3>All Destinations</h3>
+    <ul>
+      <li ng-repeat="place in vacations">
+        <a href="" ng-click="setDestination(place.city)">
+          {{place.city}} - {{place.country}}
+        </a>
+      </li>
+    </ul>
 </div>

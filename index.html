@@ -1,8 +1,9 @@
-<html ng-app>
+<html ng-app="destination">
 <head>
 	<title>Demo</title>
 	<script type="text/javascript" src="js/lib/angular.min.js"></script>
 	<script type="text/javascript" src="js/controllers/app.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css">
 </head>
@@ -10,7 +11,9 @@
 	<div class="container" ng-controller="AppCtrl">
 		<h1>AngulAir</h1>
 
-		<div class="pull-left span6">
+		<div ng-view></div>
+
+		<!-- <div class="pull-left span6">
 
 			<ul>
 				<li ng-repeat="place in vacations">
@@ -21,7 +24,8 @@
 			<p ng-show="currentCity">Current destination: {{currentCity.city}}</p>
 		</div>
 
-		<div class="span5" ng-include src="sidebarURL"></div>
+		<div class="span5" ng-include src="sidebarURL"></div> -->
+		<p ng-show="currentCity">Current destination: {{currentCity.city}}</p>
 	</div>
 
 		
