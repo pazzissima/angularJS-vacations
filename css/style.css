@@ -2,3 +2,13 @@
     position: relative;
     display: inline-block;
 }
+.convincingCTA {
+  position: relative;
+  top: 10px;
+  left: 25%;
+  font-size: 2em;
+  width: 84%;
+}
+.beautifulImage {
+  margin-top: 4%;
+}

@@ -20,7 +20,7 @@
 			</li>
 
 			<li ng-class="locationActive">
-				<a href="#/location">Location</a>
+				<a href="#/locations">Location</a>
 			</li>
 
 			<li ng-class="planActive">
@@ -30,6 +30,8 @@
 
 
 		<div ng-view></div>
+
+
 
 		<!-- <div class="pull-left span6">
 
@@ -43,7 +45,13 @@
 		</div>
 
 		<div class="span5" ng-include src="sidebarURL"></div> -->
-		<p ng-show="currentCity">Why don't I visit {{currentCity.city}}?</p>
+		<div >
+			<p class="convincingCTA" ng-show="currentCity">Why don't I visit {{currentCity.city}}?</p>
+		</div>
+
+		<div>
+			<img ng-show="currentCity" ng-src="{{currentCity.image}}" alt="Description" class="beautifulImage"/>
+		</div>
 	</div>
 
 		

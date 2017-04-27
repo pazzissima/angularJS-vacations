@@ -7,7 +7,7 @@ function locationRouter ($routeProvider) {
       controller: function ($scope) {
         $scope.setActive('destinations');
     }})
-    .when('/locations', {template: '<h3>Locations</h3>',
+    .when('/locations', {templateUrl: 'partials/location.html',
       controller: function ($scope) {
         $scope.setActive('location');
     }})

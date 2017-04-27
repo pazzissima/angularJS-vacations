@@ -13,6 +13,7 @@ function AppCtrl ($scope) {
       "location": "Western Europe",
       "currency": "Swiss franc",
       "country": "Switzerland",
+      "image": "/img/geneve.jpg",
       "languages": [
         "French",
         "German",
