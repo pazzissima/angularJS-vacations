@@ -21,6 +21,15 @@ function AppCtrl ($scope) {
         "Spanish"
       ]
     },
+    "Lankanfushi": {
+      "city": "Lankanfushi",
+      "location": "South Asia",
+      "currency": "Maldivian rufiyaa",
+      "country": "Maldives",
+      "languages": [
+        "Spanish"
+      ]
+    },
     "Berlin": {
       "city": "Berlin",
       "location": "Central Europe",
@@ -37,6 +46,15 @@ function AppCtrl ($scope) {
       "country": "Maldives",
       "languages": [
         "Dhivehi"
+      ]
+    },
+    "Providenciales Island": {
+      "city": "Providenciales Island",
+      "location": "North Atlantic Ocean, northwest of Puerto Rico",
+      "currency": "US dollar",
+      "country": "Turks and Caicos Islands",
+      "languages": [
+        "English"
       ]
     }
   };
