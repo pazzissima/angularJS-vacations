@@ -1,4 +1,12 @@
 function AppCtrl ($scope) {
+  $scope.setActive = function (type) {
+    $scope.destinationsActive = '';
+    $scope.locationActive = '';
+    $scope.planActive = '';
+
+    $scope[type + 'Active'] = 'active';
+  }
+
   $scope.vacations = {
     "Geneve": {
       "city": "Geneve",

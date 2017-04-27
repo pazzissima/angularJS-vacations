@@ -15,16 +15,16 @@
 		
 
 		<ul class="nav nav-pills">
-			<li>
-				<a href="#">Destinations</a>
+			<li ng-class="destinationsActive">
+				<a href="#" ng-click="setActive('destinations')">Destinations</a>
 			</li>
 
-			<li>
-				<a href="#/location">Location</a>
+			<li ng-class="locationActive">
+				<a href="#/location" ng-click="setActive('location')">Location</a>
 			</li>
 
-			<li>
-				<a href="#/plan">Plan</a>
+			<li ng-class="planActive">
+				<a href="#/plan" ng-click="setActive('plan')">Plan</a>
 			</li>
 		<ul>
 
